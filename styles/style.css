@@ -2,6 +2,16 @@ body {
     background-color: #fff;
 }
 
+.heading h2 {
+    font-family: 'Playfair Display', serif;
+    color: #523B35;
+    font-size: 56px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 40px;
+}
+
+/* Navigation bar */
 header {
     font-family: 'Lato', sans-serif;
     align-items: center;
@@ -33,11 +43,7 @@ header a:active {
     text-decoration: none;
 }
 
-
-
-
-
-
+/* Hero section */
 .customJumbotron {
     color: #523B35;
     background-color: transparent;
@@ -49,6 +55,7 @@ header a:active {
     align-items: center;
     justify-content: center;
     gap: 100px;
+    margin-bottom: 100px;
 }
 
 .jumboText {
@@ -67,9 +74,38 @@ header a:active {
     margin: initial;
 }
 
-
 .jumboPhoto img {
     object-fit: contain;
     height: 100%;
     width: 100%;
+}
+
+/* My Work section */
+.workContentGrid {
+    margin: auto;
+    justify-content: space-evenly;
+
+}
+
+.customCard {
+    border: transparent;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    color: #523B35;
+}
+
+.customCard img {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.customCardBody {
+    padding-left: 0;
+}
+
+.customCard h5 {
+    cursor: pointer;
+    font-weight: 700;
 }
