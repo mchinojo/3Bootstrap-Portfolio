@@ -95,7 +95,7 @@ header a:active {
     border: transparent;
     margin-bottom: 50px;
     font-family: 'Lato', sans-serif;
-    color: #523B35;
+    color: var(--mainColor);
 }
 
 .customCard img {
@@ -113,6 +113,36 @@ header a:active {
     cursor: pointer;
     font-weight: 700;
 }
+
+/* Skills section */
+.mySkills {
+    background-image: url("../images/background-03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.myList h5 {
+    font-family: 'Lato', sans-serif;
+    color: var(--mainColor);
+    font-weight: 700;
+}
+
+.customList li {
+    border: transparent;
+    font-family: 'Lato', sans-serif;
+    color: var(--mainColor);
+    background-color: transparent;
+}
+
+.customList li::before {
+    content: "🔸";
+    margin-right: 5px;
+}
+
 
 /* Footer section */
 footer {
