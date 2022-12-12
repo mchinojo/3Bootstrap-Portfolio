@@ -144,6 +144,24 @@ header a:active {
 }
 
 
+/* About/Contact me section */
+.customAbout {
+    border: transparent;
+}
+
+form {
+    font-family: 'Lato', sans-serif;
+    color: var(--mainColor);
+}
+
+form h5 {
+    font-weight: 700;
+}
+
+.customValidated {
+    border: 1px solid #ced4da;
+}
+
 /* Footer section */
 footer {
     font-family: 'Lato', sans-serif;

@@ -170,13 +170,17 @@
     </section>
 
     <!-- About/Contact me section -->
-    <h2>About me</h2>
-    <div id="aboutMe" class="container">
+    <section id="aboutMe" class="container">
+        <h2>About me</h2>
         <div class="row justify-content-around">
-            <div class="card col-lg-5">
+            <div class="customAbout card col-lg-5">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum beatae quasi,
+                        minima dignissimos numquam laborum commodi qui fugit ea consequuntur, ipsam exercitationem,
+                        omnis eaque rem sed nobis itaque. Doloribus iusto qui quod debitis placeat hic quas dicta, sint
+                        cumque a fugit. Laboriosam porro voluptatibus possimus cum tenetur maxime cumque eum saepe
+                        necessitatibus, fuga molestias doloribus dicta nam quidem laudantium blanditiis consequatur
+                        commodi, quae, inventore fugiat aut esse nulla.</p>
                 </div>
             </div>
 
@@ -187,19 +191,14 @@
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                         placeholder="Your email">
                 </div>
-                <form class="was-validated">
-                    <div class="mb-3">
-                        <label for="validationTextarea">Message</label>
-                        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Your message"
-                            required></textarea>
-                        <div class="invalid-feedback">
-                            Please enter a message.
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </form>
+                <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <textarea name="career[message]" class="form-control" tabindex="4"
+                        placeholder="Please enter a message." required></textarea>
+                </div>
+            </form>
         </div>
-    </div>
+    </section>
 
     <!-- Footer section -->
     <footer>
