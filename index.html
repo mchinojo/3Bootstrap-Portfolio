@@ -28,19 +28,22 @@
 
 <body>
     <!-- Navigation bar -->
-    <header class="row">
+    <header id="topPage" class="row">
         <div class="col-lg-2">
-            <a class="nav-link active myName" href="#">Connie H.</a>
+            <a class="nav-link active myName">Connie H.</a>
         </div>
         <ul class="nav col-lg-10 justify-content-end">
             <li class="nav-item">
                 <a class="nav-link" href="#workContentGrid">Work</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About me</a>
+                <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Contact me</a>
+                <a class="nav-link" href="#aboutMe">About me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#aboutMe">Contact me</a>
             </li>
         </ul>
     </header>
@@ -118,13 +121,110 @@
     </div>
 
     <!-- List of skills section -->
-    <section>
+    <section id="skills">
         <div id="myList" class="heading">
             <h2>Skills</h2>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="card col-lg-5">
+                    <h5 class="card-title">Front-end fundamentals</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML</li>
+                        <li class="list-group-item">JavaScript</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">UX</li>
+                        <li class="list-group-item">Git</li>
+                        <li class="list-group-item">GitHub</li>
+                        <li class="list-group-item">Information
+                            architecture</li>
+                        <li class="list-group-item">User experience
+                            design</li>
+                    </ul>
+                    <h5 class="card-title">Developing with APIs</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Javascript framework</li>
+                        <li class="list-group-item">DOM manipulation</li>
+                        <li class="list-group-item">Web-based
+                            applications</li>
+                        <li class="list-group-item">Data extraction and retrieval</li>
+                    </ul>
+                </div>
+                <div class="card col-lg-5">
+                    <h5 class="card-title">Modern front-end frameworks</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Structuring, positioning, and optimisation of web page content</li>
+                        <li class="list-group-item">React.js</li>
+                        <li class="list-group-item">Netlify</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- About/Contact me section -->
+    <h2>About me</h2>
+    <div id="aboutMe" class="container">
+        <div class="row justify-content-around">
+            <div class="card col-lg-5">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
 
+            <form class="col-lg-5">
+                <h5 class="card-title">Get in touch</h5>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Your email">
+                </div>
+                <form class="was-validated">
+                    <div class="mb-3">
+                        <label for="validationTextarea">Message</label>
+                        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Your message"
+                            required></textarea>
+                        <div class="invalid-feedback">
+                            Please enter a message.
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <section class="mt-5">
+                <div class="row text-center d-flex justify-content-center pt-5">
+                    <div class="col-md-2">
+                        <h5><a href="#topPage">Back to top</a></h5>
+                    </div>
+                </div>
+            </section>
+            <section class="mb-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                            distinctio earum repellat quaerat voluptatibus placeat nam,
+                            commodi optio pariatur est quia magnam eum harum corrupti
+                            dicta, aliquam sequi voluptate quas.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2022 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+    </footer>
+    </div>
 
 
 
