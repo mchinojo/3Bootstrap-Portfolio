@@ -60,11 +60,11 @@ header a:active {
 .customJumbotron {
     color: var(--mainColor);
     background-color: #FBE7D3;
-    background-image: url("../images/background-04.jpg");
+    /* background-image: url("../images/background-04.jpg");
     background-repeat: no-repeat;
-    background-size: 50% 100%;
-    padding: 10px;
-    height: 600px;
+    background-size: 50% 100%; */
+    padding: 0;
+    height: auto;
     align-items: center;
     justify-content: center;
     gap: 100px;
@@ -85,6 +85,9 @@ header a:active {
 .jumboPhoto {
     height: 500px;
     margin: initial;
+    background-image: url("../images/background-04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumboPhoto img {
@@ -128,7 +131,6 @@ header a:active {
     background-image: url("../images/background-03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
     display: flex;
     align-items: center;
     justify-content: space-around;
