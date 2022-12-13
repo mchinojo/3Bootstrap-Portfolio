@@ -16,9 +16,9 @@ Clone the project and open it using your favourite browser (I recommend using Ch
 
 This project was made possible by my instructors and teacher assistants. Also I followed some tutorials from W3Schools, MDN Web Docs and Bootstrap:
 
-- [W3Schools] (https://www.w3schools.com/)
-- [MDN Web Docs] (https://developer.mozilla.org)
-- [Bootstrap] (https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+https://getbootstrap.com/docs/4.0/getting-started/introduction/
+https://www.w3schools.com/
+https://developer.mozilla.org
 
 ## Licence
 
