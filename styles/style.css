@@ -202,6 +202,7 @@ footer a:visited {
 footer a:hover {
     color: rgb(164, 127, 76);
     text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 footer a:active {
